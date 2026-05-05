@@ -1,0 +1,232 @@
+local Translations = {
+    ["Guesting Hub v2.6.7"] = "Guesting Hub v2.6.7",
+    ["By Veux/Veux67"] = "作者 Veux/Veux67/imdy汉化",
+    ["Search"] = "搜索",
+    ["Discord | Yaps"] = "Discord | Yaps",
+    ["Updates"] = "更新",
+    ["Auto Block"] = "自动格挡",
+    ["Anti Bait Features"] = "防诱骗功能",
+    ["Stamina"] = "体力",
+    ["Player"] = "玩家",
+    ["Drain Stamina"] = "消耗体力",
+    ["Gain Stamina"] = "恢复体力",
+    ["Sprint Speed"] = "冲刺速度",
+    ["Stamina Settings"] = "体力设置",
+    ["Show Stamina Visual"] = "显示体力可视化",
+    ["Shows stamina on head"] = "头顶显示体力值",
+    ["Infinite Stamina"] = "无限体力",
+    ["Min Stamina"] = "最低体力",
+    ["Max Stamina"] = "最高体力",
+    ["info"] = "信息",
+    ["THE FACING CHECK only Works For Default Range"] = "朝向检测仅适用于默认范围",
+    ["Wall Check"] = "墙体检测",
+    ["default Range Facing Check"] = "默认范围朝向检测",
+    ["Facing Dot"] = "朝向标记点",
+    ["Ping info"] = "延迟信息",
+    ["if green = all perfect for auto block, If yellow = mid still good, If red = Might Delay"] = "绿色=自动格挡完美运行，黄色=中等可用，红色=可能出现延迟",
+    ["Range Customizer"] = "范围自定义",
+    ["Default is the default range and Custom range look it for urself"] = "默认为原版范围，自定义范围可自行调整",
+    ["Front Size"] = "正面范围大小",
+    ["just size.. yez"] = "仅调整大小即可",
+    ["Locked"] = "已锁定",
+    ["Left and Right Side"] = "左右侧边范围",
+    ["just size... each side yez"] = "单独调整每侧大小",
+    ["AUTO"] = "自动",
+    ["Auto Punch"] = "自动出拳",
+    ["punch delay"] = "出拳延迟",
+    ["Auto Block Mode"] = "自动格挡模式",
+    ["Ping checker"] = "延迟检测",
+    ["Range Distance to Detect"] = "检测范围距离",
+    ["Sound time"] = "声音判定时长",
+    ["checks how long it should block a sound"] = "设置声音格挡持续时长",
+    ["Helper Guv -"] = "辅助功能",
+    ["Aimbots"] = "自瞄",
+    ["Enable Aimbot"] = "启用自瞄",
+    ["pick aimbots"] = "选择自瞄目标",
+    ["Settings"] = "设置",
+    ["Prediction (0 - 10)"] = "预判值(0 - 10)",
+    ["Distance (1 - 50)"] = "判定距离(1 - 50)",
+    ["Not works on chance and dusekkar"] = "对chance和dusekkar无效",
+    ["Extra Settings"] = "额外设置",
+    ["Exploits/Fun"] = "作弊/娱乐功能",
+    ["Inf Bloxy Cola"] = "无限 Bloxy 可乐",
+    ["Read the tutorial"] = "请阅读使用教程",
+    ["Tutorial (Important)"] = "使用教程（重要）",
+    ["1) First Turn ON Inf Bloxy Cola"] = "1) 先开启无限 Bloxy 可乐",
+    ["2) Find a Bloxy Cola in the Map (Use Esp item to find it)"] = "2) 在地图寻找 Bloxy 可乐（可用物品透视查找）",
+    ["3) Drink it and it will be inf bloxy cola"] = "3) 饮用后即可解锁无限 Bloxy 可乐",
+    ["HITBOX EXPENDER"] = "碰撞箱扩展",
+    ["Hitbox expender (beta)"] = "碰撞箱扩展（测试版）",
+    ["Distance/Reach (max : 1 - 45)"] = "距离/攻击范围（最大值：1 - 45）",
+    ["helper guy yez"] = "辅助设置",
+    ["use maybe 2-3 if u want be not get caught by others ppl"] = "不想被其他玩家发现建议设置2-3",
+    ["Killers"] = "杀手",
+    ["Killers Aimbot"] = "杀手自瞄",
+    ["How To Use ???"] = "使用方法",
+    ["First Turn on The aimbot than Look at the surviver u wanna lock on Than click the Aimbot it will lock it"] = "先开启自瞄，看向需要锁定的幸存者，点击自瞄即可锁定目标",
+    ["it was supposed to be made for all killers but it Mostly Work perfect on Slasher and John doe and Guest666.. U can Use Noli , Coolkid , 1x too no problem"] = "适配全杀手角色，对Slasher、John doe、Guest666适配最佳，也可正常用于Noli、Coolkid、1x",
+    ["M1 Aimbot"] = "M1 自瞄",
+    ["Duration Of Aimbot"] = "自瞄持续时长",
+    ["Killer's Auto Block"] = "杀手自动格挡",
+    ["Hitbox Dragging Tech"] = "碰撞箱拖拽技术",
+    ["Hitbox dragging speed"] = "碰撞箱拖拽速度",
+    ["Speed of the drag"] = "拖拽移动速度",
+    ["Hitbox dragging delay"] = "碰撞箱拖拽延迟",
+    ["time tu wait for drag"] = "拖拽前置等待时间",
+    ["Guest Fake Lag tech"] = "玩家假延迟技术",
+    ["Move to Stop the Fake lag"] = "移动即可关闭假延迟",
+    ["Remove Fog"] = "移除雾气",
+    ["Full Bright"] = "全屏高亮",
+    ["Range Visualizer"] = "范围可视化",
+    ["Range (1-20)"] = "范围(1-20)",
+    ["Killer Mode -"] = "杀手模式",
+    ["Slasher"] = "Slasher",
+    ["Noli"] = "Noli",
+    ["foolsss"] = "foolsss",
+    ["Noli VoidRush Controller"] = "Noli 虚空冲刺控制器",
+    ["CoolKid"] = "CoolKid",
+    ["red tomato"] = "red tomato",
+    ["c00lkidd Animation Walkspeed"] = "c00lkidd 动画移速",
+    ["Esp"] = "透视",
+    ["Survivor ESP"] = "幸存者透视",
+    ["Killer ESP"] = "杀手透视",
+    ["Item ESP"] = "物品透视",
+    ["Generator ESP"] = "发电机透视",
+    ["Jane Doe Document ESP"] = "Jane Doe 文件透视",
+    ["Misc"] = "杂项",
+    ["Auto Mini Game"] = "自动小游戏",
+    ["thanks Cryptic For the Source!"] = "感谢Cryptic提供源码！",
+    ["Anti Stun"] = "防眩晕",
+    ["Anti stats"] = "防状态检测",
+    ["Veeronica"] = "Veeronica",
+    ["try to catch me - veeronica"] = "来抓我呀 - veeronica",
+    ["Veeronica Auto TRICK"] = "Veeronica 自动操作",
+    ["Device"] = "设备",
+    ["Select device method for veeronica Auto TRICK"] = "为Veeronica自动操作选择设备模式",
+    ["Mobile"] = "移动端",
+    ["Guest1337"] = "Guest1337",
+    ["some random things"] = "杂项趣味功能",
+    ["Charge Aimbot"] = "蓄力自瞄",
+    ["Veeronica Skate Controller"] = "Veeronica 滑行控制器",
+    ["animation of block"] = "格挡动画",
+    ["Normal"] = "正常",
+    ["YO00"] = "YO00",
+    ["Alr"] = "Alr",
+    ["Thanks FOR using :) | Update 2.6.7"] = "感谢使用 :) | 更新2.6.7",
+    ["Generator Farm"] = "发电机挂机",
+    ["Auto Generator"] = "自动发电机",
+    ["Config"] = "配置"
+}
+
+local function translateText(text)
+    if not text or type(text) ~= "string" then return text end
+    
+    if Translations[text] then
+        return Translations[text]
+    end
+    
+    for en, cn in pairs(Translations) do
+        if text:find(en) then
+            return text:gsub(en, cn)
+        end
+    end
+    
+    return text
+end
+
+local function setupTranslationEngine()
+    local success, err = pcall(function()
+        local oldIndex = getrawmetatable(game).__newindex
+        setreadonly(getrawmetatable(game), false)
+        
+        getrawmetatable(game).__newindex = newcclosure(function(t, k, v)
+            if (t:IsA("TextLabel") or t:IsA("TextButton") or t:IsA("TextBox")) and k == "Text" then
+                v = translateText(tostring(v))
+            end
+            return oldIndex(t, k, v)
+        end)
+        
+        setreadonly(getrawmetatable(game), true)
+    end)
+    
+    if not success then
+        warn("元表劫持失败:", err)
+       
+        local translated = {}
+        local function scanAndTranslate()
+            for _, gui in ipairs(game:GetService("CoreGui"):GetDescendants()) do
+                if (gui:IsA("TextLabel") or gui:IsA("TextButton") or gui:IsA("TextBox")) and not translated[gui] then
+                    pcall(function()
+                        local text = gui.Text
+                        if text and text ~= "" then
+                            local translatedText = translateText(text)
+                            if translatedText ~= text then
+                                gui.Text = translatedText
+                                translated[gui] = true
+                            end
+                        end
+                    end)
+                end
+            end
+            
+            local player = game:GetService("Players").LocalPlayer
+            if player and player:FindFirstChild("PlayerGui") then
+                for _, gui in ipairs(player.PlayerGui:GetDescendants()) do
+                    if (gui:IsA("TextLabel") or gui:IsA("TextButton") or gui:IsA("TextBox")) and not translated[gui] then
+                        pcall(function()
+                            local text = gui.Text
+                            if text and text ~= "" then
+                                local translatedText = translateText(text)
+                                if translatedText ~= text then
+                                    gui.Text = translatedText
+                                    translated[gui] = true
+                                end
+                            end
+                        end)
+                    end
+                end
+            end
+        end
+        
+        local function setupDescendantListener(parent)
+            parent.DescendantAdded:Connect(function(descendant)
+                if descendant:IsA("TextLabel") or descendant:IsA("TextButton") or descendant:IsA("TextBox") then
+                    task.wait(0.1)
+                    pcall(function()
+                        local text = descendant.Text
+                        if text and text ~= "" then
+                            local translatedText = translateText(text)
+                            if translatedText ~= text then
+                                descendant.Text = translatedText
+                            end
+                        end
+                    end)
+                end
+            end)
+        end
+        
+        pcall(setupDescendantListener, game:GetService("CoreGui"))
+        local player = game:GetService("Players").LocalPlayer
+        if player and player:FindFirstChild("PlayerGui") then
+            pcall(setupDescendantListener, player.PlayerGui)
+        end
+        
+        while true do
+            scanAndTranslate()
+            task.wait(3)
+        end
+    end
+end
+
+task.wait(2)
+setupTranslationEngine()
+
+local success, err = pcall(function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/LolnotaKid/project/refs/heads/main/AutoBLOCKKKWAHV1"))()
+
+end)
+
+if not success then
+    warn("加载失败:", err)
+end
